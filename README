@@ -1,1 +1,21 @@
-# HUB_Fiscaliza-o
+# HUB Fiscalização
+
+Plataforma modular para apoiar fiscalizações inteligentes com foco em conformidade
+regulatória, governança de dados e geração de relatórios assistidos por IA.
+
+## Componentes
+
+- `services/ai-assistant`: Serviço FastAPI para geração de relatórios com suporte de LLM.
+- `services/compliance`: Toolkit para gestão de requisitos ISO 9001, LGPD, auditorias e
+  integração com assinatura digital ICP-Brasil.
+- `docs/compliance`: Conjunto de políticas, mapeamentos e templates de auditoria.
+
+## Guia Rápido
+
+```bash
+pip install -r services/ai-assistant/requirements.txt
+pip install -r services/compliance/requirements.txt
+```
+
+Consulte `services/compliance/README.md` para exemplos de uso de checklists, planos de
+ação, relatórios de auditoria e trilhas de logs imutáveis.
