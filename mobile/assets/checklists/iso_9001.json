@@ -1,0 +1,10 @@
+{
+  "id": "iso-9001",
+  "title": "Checklist ISO 9001",
+  "standard": "ISO-9001",
+  "items": [
+    {"id": "contexto", "description": "Contexto da organização avaliado", "completed": false},
+    {"id": "lideranca", "description": "Liderança presente", "completed": false},
+    {"id": "planejamento", "description": "Planejamento de riscos revisado", "completed": false}
+  ]
+}

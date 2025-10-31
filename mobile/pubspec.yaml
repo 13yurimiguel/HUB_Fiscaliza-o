@@ -1,0 +1,44 @@
+name: hub_fiscalizacao_mobile
+description: Aplicativo móvel para fiscalização com SSO, captura e sincronização offline.
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_secure_storage: ^9.0.0
+  http: ^1.1.0
+  json_annotation: ^4.8.1
+  sqflite: ^2.2.8
+  path_provider: ^2.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^1.0.7
+  exif: ^3.1.2
+  document_scanner_flutter: ^0.3.1
+  speech_to_text: ^6.1.0
+  flutter_sound: ^9.2.13
+  provider: ^6.0.5
+  intl: ^0.18.1
+  connectivity_plus: ^5.0.1
+  flutter_appauth: ^6.0.1
+  uuid: ^4.1.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.1
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/checklists/
