@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+coverage
+.cypress-cache
+
+# Cypress screenshots/videos
+cypress/screenshots
+cypress/videos
