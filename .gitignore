@@ -1,0 +1,29 @@
+# Node / Next.js
+node_modules/
+.npm/
+.next/
+out/
+
+# NestJS build artifacts
+services/fiscaliza-api/dist/
+services/fiscaliza-api/coverage/
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/ios/
+mobile/android/
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Misc
+.env
+.DS_Store
